@@ -1,7 +1,8 @@
 {
   "name": "hexo-site",
   "version": "2.1.4",
-  "private": true,
+  "private": false,
+  "description": "Redefine your writing with modern style and various functionality in 'Redefine' Hexo Theme.",
   "hexo": {
     "version": "5.3.0"
   },
@@ -19,5 +20,24 @@
   "scripts": {
     "dev": "hexo server -p $PORT",
     "build": "hexo generate"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanNotFound/hexo-theme-redefine.git"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "redefine",
+    "simple",
+    "pure",
+    "powerful",
+    "hexo-theme"
+  ],
+  "author": "EvanNotFound",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/EvanNotFound/hexo-theme-redefine/issues"
+  },
+  "homepage": "https://github.com/EvanNotFound/hexo-theme-redefine#readme"
 }
